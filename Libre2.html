@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="L2Style.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>GoodFit</title>
+</head>
+<body>
+    <nav class="Nav">
+        <ul>
+            <li>
+                <div class="Home" onclick="location.href='Libre1.html'">
+                    <div class="Logo">
+                        <img class="Logo"src="imagenes/GymLogo.png">
+                    </div>
+                    <h1 class="Nombre">GoodFit</h1>
+                </div>
+            </li>
+            <li>
+                <div class="Ubi" onclick="location.href='https://www.google.com/maps/place/Ant%C3%A1rtida/@-75.05435,0,3z/data=!3m1!4b1!4m8!1m2!2m1!1sgoogle+maps!3m4!1s0xa4b9967b3390754b:0x6e52be1f740f2075!8m2!3d-75.250973!4d-0.071389'">
+                    <img class="Ubi1" src="imagenes/Ubicacion.png">
+                    <p class='Ubi2'>Ubicación</p>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="Seccion">
+        <h2 class="Frase">GoodFit</h2>
+    </div>
+    <div class="Seccion">
+        <h2 class="Frase1">Conviértete en la mejor versión de ti</h2>
+    </div>
+
+    <div class="Container">
+        <div class="Bloques Bloque1">
+            <img class="Items Item1" src="imagenes/Entrena1.jpg">
+            <p class="texto">Conoce nuestros planes de entrenamiento y la mejor opción para ti</p>
+            <img class="Items Item2" src="imagenes/Entrena2.jpg">
+        </div>
+        <div class="Bloques Bloque2">
+            <div class="Objetos Objeto1">
+                <p>
+                    Contamos con las mejores promociones pero solo por tiempo limitado
+                </p>
+            </div>
+            <img class="Objetos Objeto2" src="imagenes/Promo.PNG">
+        </div>
+        <div class="Bloques Bloque3">
+            <img class="Elementos Elemento1" src="imagenes/Entrenador.jpg">
+            <p class="texto2"> Con los mejores entrenadores certificados</p>
+        </div>
+    </div>
+    <div class="Abajo">
+        <button id="btn">Cambiar colores</button>
+    </div>
+    <div class="Abajo2">
+        <p class="fontChange">Cambiar Fuente</p>
+        <select class="fontChange" oninput="cambiarFuente()">
+            <option value="poppins">poppins</option>
+            <option value="Times New Roman">roman</option>
+        </select>
+    </div>
+    <footer>
+        <p class="Pie">
+            Todos los derechos reservados. Copyright (2022 - )  GoodFit
+        </p>
+    </footer>
+    <script src="Libre2.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+:root{
+    --fondo-viewport: #8f8d87;
+    --fondo-total: #d9d9d9;
+    --fondo-morado: #4420a1;
+    --color-titulo: #632957;
+    --fondo-gris: #404040;
+    --fuente: "poppins";
+}
+*{
+    font-family: var(--fuente);
+}
+body{
+    background-color: var(--fondo-total);
+}
+.Nav{
+	display: block;
+	height: 40px;
+	background-color: var(--fondo-viewport);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+    margin-top: 0;
+    opacity: 0.95;
+}
+nav ul{
+    margin-top: 0px;
+   }
+li{
+	display: inline-block;
+}
+.Home{
+	position: relative;
+	cursor: pointer;
+	left: 10px;
+}
+.Logo{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	top: 3.5px;
+}
+.Nombre{
+	font-size: 18px;
+	display: inline;
+}
+.Ubi
+{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	left: 40px;
+}
+.Ubi1
+{
+	width: 15px;
+	height: 15px;
+}
+.Ubi2
+{
+	font-weight: bold;
+	display: inline-block;
+}
+.Seccion
+{
+	display: flex;
+	background-color: var(--fondo-morado);
+	height: 90px;
+}
+.Frase
+{
+	font-size: 60px;
+	font-weight: bolder;
+	margin: auto;
+}
+.Frase1
+{
+	font-size: 50px;
+	font-weight: lighter;
+	margin: auto;
+}
+.Container
+{
+	font-family: poppins, sans-serif;
+	color: #530080;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.Bloques
+	{
+		min-width: 300px;
+		max-width: 600px;
+		width: 500px;
+		height: 800px;
+	}
+	.Bloque1
+	{
+		min-width: 300px;
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-grow: 1;
+	}
+		.Items
+		{
+			width: 75%;
+			height: 25%;
+		}
+		.Item1
+		{
+			background-color: var(--fondo-gris);
+			padding: 5px;
+			border-radius: 4px;
+			object-fit: cover;
+		}
+        .texto{
+            min-width: 300px;
+			color: #530080;
+			padding: 7px;
+			font-size: 35px;
+            display: flex;
+            justify-content: center;
+            text-align: justify;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+		.Item2
+		{
+			background-color: var(--fondo-gris);
+			padding: 5px;
+			border-radius: 4px;
+			object-fit: cover;
+		}
+	.Bloque2
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+		.Objetos
+		{
+			width: 85%;
+			height: 35%;
+		}
+		.Objeto1
+		{
+			justify-content: center;
+			text-align: justify;
+		}
+		.Objeto1 p
+		{
+			min-width: 300px;
+			color: green;
+			padding: 7px;
+			font-size: 35px;
+		}
+		.Objeto2
+		{
+			background-color: var(--fondo-gris);
+			flex-grow: 1;
+			padding: 5px;
+			border-radius: 4px;
+			object-fit: cover;
+			height: 30%;
+			position: relative;
+			bottom: 50px;
+		}
+	.Bloque3
+	{
+		display: flex;
+		flex-grow: 1;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+		.Elementos
+		{
+			width: 85%;
+			height: 50%;
+		}
+		.Elemento1
+		{
+			object-fit: cover;
+            background-color: var(--fondo-gris);
+			padding: 5px;
+			border-radius: 4px;
+		}
+        .texto2{
+            min-width: 300px;
+			color: #530080;
+			padding: 7px;
+			font-size: 35px;
+            display: flex;
+            justify-content: flex-start;
+            text-align: justify;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+.Abajo
+{
+	font-size: 25px;
+	text-align: center;
+}
+.Abajo2
+{
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+}
+.fontChange{
+    display: inline;
+}
+#btn
+{
+	display: inline-block;
+	color: #FFF;
+	background-color: var(--fondo-morado);
+	padding: 15px;
+	border-radius: 15px;
+	border-width: 0;
+	cursor: pointer;
+}
+footer
+{
+	position: relative;
+	background-color: var(--fondo-gris);
+	display: block;
+	text-align: center;
+}
+.Pie
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+}
